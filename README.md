@@ -1,5 +1,5 @@
 # WashingMachineEmbeddedC
-Create a C program for a washing machine simulation using Arduino
+
 Tema 7
 Se cere sa automatizati o masina de spalat rufe.
 Componentele principale ale masinii de spalat sunt:
@@ -43,3 +43,20 @@ Test
 Software
 9. Folositi notiunile invatate anterior (variabile denumite explicit, cod comentat, functii simple etc.)
 10. Implementati (in simulare sau pe platform embedded) sistemul proiectat.
+
+Tema 8
+1. Configurati controlerul de UART sa transmita si sa receptioneze mesaje la o viteza de 9600 baud/sec.
+Folositi o intrerupere atat pentru transmisia cat si pentru receptia fiecarui octet.
+2. Configurati un timer al microcontrollerului astfel incat sa genereze un PWM cu factor de umplere
+variabil. Factorul de umplere va fi modificat folosind interfata seriala configurata la punctul anterior.
+Modificarea factorului de umplere a semnalului generat se va valida folosind un motor sau un LED si
+vizualizand modificarea turatiei sau a luminozitatii in functie de configuratia aleasa.
+3. Configurati ADC-ul microcontrolerului asfel incat sa poata masura o tensiune variabila pe un anumit
+pin. Tensiunea va fi modificata folosind un potentiometru. Valoarea tensiunii masurate va fi transmisa
+print interfata seriala configurata la punctul 1.
+4. Folositi sistemul de versionare GIT in timpul dezvoltarii.
+5. Creati module de software care sa poata fi reutilizate in completarea temei 7 (masina de spalat).
+6. Folositi nume de variabile, functii si tipuri de date sugestive si adaptate conditiilor dintr-un sistem
+embedded.
+7. Studiati specificatia memoriei EEPROM a care foaie de catalog a fost transmisa pe Skype.
+8. Studiati cursul privind circuitele integrate numerice. Pregatiti intrebari pentru urmatoarea sesiune.
