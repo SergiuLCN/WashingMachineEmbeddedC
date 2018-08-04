@@ -1,6 +1,7 @@
 # WashingMachineEmbeddedC
 
 Tema 7
+
 Se cere sa automatizati o masina de spalat rufe.
 Componentele principale ale masinii de spalat sunt:
 - Pompa de incarcare cu apa (poate fi pornita sau oprita)
